@@ -12,6 +12,10 @@ namespace NEwAPPForLearning
         {
             FullName fullName = new FullName();
             fullName.Name("Nandan");
+
+            Addition addition = new Addition();
+            int result = addition.Add(10, 10);
+            Console.WriteLine(result);
         }
     }
 }
