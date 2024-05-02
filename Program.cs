@@ -16,6 +16,10 @@ namespace NEwAPPForLearning
             Addition addition = new Addition();
             int result = addition.Add(10, 10);
             Console.WriteLine(result);
+
+
+
+            
         }
     }
 }
